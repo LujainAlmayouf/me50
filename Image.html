@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Image Search</title>
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        
+        .logo {
+        z-index: 1;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-top: 173px;
+        text-align: center;
+        margin-bottom: 38px;
+        display: block;
+    
+        }
+        
+        .links{
+        display:flex;
+        justify-content:flex-end;
+        padding-right:2%; 
+        }
+        
+        .inputs{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        }
+        
+        .bar{
+        background-color: #ffffff;
+        border: 1px solid #dfe1e5;
+        box-shadow: none;
+        color: #616161;
+        font-family: Roboto, system-ui, sans-serif;
+        font-size: 16px; 
+        position: relative;
+        margin:0 auto 16px auto;
+        border-radius: 24px;
+        box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+        width :583px;
+        height: 46px;
+        }
+        
+        .bar:hover{
+        box-shadow: 1px 2px 9px 1px rgba(32, 33, 36, .5);
+        }
+       
+        .buttons{
+        background-color: #e8eaed;
+        border:none;
+        border-radius: 4px;
+        color: #303134;
+        font-family: Helvetica Neue,Noto Naskh Arabic UI,Arial,sans-serif;
+        font-size: 14px;
+        margin: 11px 4px;
+        padding: 0 16px;
+        height: 36px;
+        cursor: pointer;
+        display: inline;
+        outline:none;
+        }
+        
+        .buttons:hover{
+        border: 1px solid rgba(32, 33, 36, .3);
+        }
+        </style>
+    </head>
+    <body>
+      <header>
+      <div class="links">
+        <a href="index.html">Google Search</a>
+      </div>
+      </header>
+      <main>
+           <div class="logo">
+                 <img src="Google_logo.svg.png" alt="googleLogos" style="width:272px;height:92px;">
+           </div> 
+           
+           <form action="http://images.google.com/images">
+       
+                 <div class="inputs">
+                    
+                     <input class="bar" type="text" name="q">
+                      
+                          <center>
+                               <input class="buttons" type="submit" value="Google Search">
+                          </center>
+                   </div>
+            </form>
+      </main>
+      
+    </body>
+</html>
